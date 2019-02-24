@@ -68,6 +68,8 @@ class IsBalanced {
 Time: O(n).
 Space: O(n), due to recursive call stack.
 
-We do a post-order traversal, adding +1 as we bubble up each time. When the height difference is > 1 or we have a -1, we bubble up -1. On another implementation, we can create a custom Solution object that holds boolean value and pass that value to the util method.
+We do a post-order traversal, adding +1 as we bubble up each time. When the height difference is > 1 
+or we have a -1, we bubble up -1. On another implementation, we can create a custom Solution object 
+that holds boolean value and pass that value to the util method.
 
 */
