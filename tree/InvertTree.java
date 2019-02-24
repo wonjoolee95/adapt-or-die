@@ -51,6 +51,9 @@ class InvertTree {
 Time: O(n).
 Space: O(n), due to recursive call stack.
 
-We just a preorder traversal, setting root.left to root.right and root.right to root.left, using a temporary variable. Algorithm is straightforward, but seeing the return value bubble up may not be too obvious. On another implementation (to make the return value easier), we can make a util method that does not return anything but simply changes root.left with root.right.
+We just a preorder traversal, setting root.left to root.right and root.right to root.left, 
+using a temporary variable. Algorithm is straightforward, but seeing the return value 
+bubble up may not be too obvious. On another implementation (to make the return value easier), 
+we can make a util method that does not return anything but simply changes root.left with root.right.
 
 */
