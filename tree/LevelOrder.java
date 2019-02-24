@@ -65,4 +65,7 @@ class Solution {
 Time: O(n).
 Space: O(n).
 
+Here we do BFS while maintaining two levels -- curr and next. We can maintain these levels in a queue or just a normal list. 
+This is a common techinque seen in many tree questions. A modified version of the problem asks for a zigzag order traversal.
+
 */
