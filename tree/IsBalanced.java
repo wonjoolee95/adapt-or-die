@@ -41,7 +41,7 @@ public class TreeNode {
 
 */
  
-class Solution {
+class IsBalanced {
     public boolean isBalanced(TreeNode root) {
         return isBalancedUtil(root) >= 0;
     }
