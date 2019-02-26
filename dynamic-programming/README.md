@@ -1,1 +1,1 @@
-According to [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming), dynamic programming refers to algorithms that simplify a complicated problem by breaking it down into simpler sub-problems in a recursive manner. 
+
