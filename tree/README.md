@@ -1,6 +1,6 @@
 Many tree questions become very simple if you know how to correctly traverse through it. There are 3 type of tree traversals: pre-order, in-order, and post-order.
 
-Pre-order traversal is when you visit the root, and then its children -- hence the name "pre-order". Some common questions that can easily be solved with pre-order traversal include [Validate tree is BST](https://github.com/wonjoolee95/adapt-or-die/blob/master/tree/isValidBST.java), [Find Kth smallest element in BST](https://github.com/wonjoolee95/adapt-or-die/blob/master/tree/kthSmallest.java), etc. The code for pre-order will always look similar to this:
+Pre-order traversal is when you visit the root, and then its children -- hence the name "pre-order". Some common questions that can easily be solved with pre-order traversal include [Validate tree is BST](https://github.com/wonjoolee95/adapt-or-die/blob/master/tree/isValidBST.java), [Find Kth smallest element in BST](https://github.com/wonjoolee95/adapt-or-die/blob/master/tree/kthSmallest.java). The code for pre-order will always look similar to this:
 ```
 private void preOrder(Node root) {
   if (root == null) {
@@ -31,7 +31,7 @@ private void inOrder(Node root) {
 }
 ```
 
-Post-order traversal is when you visit the children and then the root -- hence the name "post-order". Some common questions that can easily be solved with post-order traversal include Determining if tree is balanced, Find lowest common ancestors, etc. The code for post-order will always look similar to this:
+Post-order traversal is when you visit the children and then the root -- hence the name "post-order". Some common questions that can easily be solved with post-order traversal include Determe if tree is balanced, Find lowest common ancestors. The code for post-order will always look similar to this:
 ```
 private void postOrder(Node root) {
   if (root == null) {
