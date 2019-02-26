@@ -58,7 +58,7 @@ class Solution {
 
 /* 
 
-Time: O(nm * 4^k), where n and m are rows and columsn of the board and k is length of the seach word.
+Time: O(nm * 4^k), where n and m are rows and columns of the board and k is length of the seach word.
 The outer loop of iterating through each index of the board is clearly O(nm). Now, in each of this iteration,
 we do a DFS that branches out 4 times, with each branch going upto the length of the seach word. We can see
 that the DFS algorithm is O(4^k). Therefore, we can see the total runtime is O(nm * 4^k).
