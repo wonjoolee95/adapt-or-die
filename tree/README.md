@@ -31,7 +31,7 @@ private void inOrder(Node root) {
 }
 ```
 
-Post-order traversal is when you visit the children and then the root -- hence the name "post-order". Some common questions that can easily be solved with post-order traversal include Determine if tree is balanced, Find lowest common ancestors. The code for post-order will always look similar to this:
+Post-order traversal is when you visit the children and then the root -- hence the name "post-order". Some common questions that can easily be solved with post-order traversal include [Determine if tree is balanced](https://github.com/wonjoolee95/adapt-or-die/blob/master/tree/IsBalanced.java), Find lowest common ancestors. The code for post-order will always look similar to this:
 ```
 private void postOrder(Node root) {
   if (root == null) {
