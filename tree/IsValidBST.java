@@ -63,3 +63,5 @@ Space: O(n), due to recursive call stack. Or better, O(h) because our recursion 
 
 We do a pre-order traversal, maining a min and max value. Everytime we go the left subtree, we update the max.
 And everytime we go to the right subtree, we update the min.
+
+*/
