@@ -59,9 +59,14 @@ class Solution {
 /*
 
 Time: O(n).
-Space: O(n), due to recursive call stack. Or better, O(h) because our recursion depth only goes up to O(h).
+Space: O(n), due to recursive call stack. Or better, O(h) because our recursion depth only goes up to O(h)
+where h is the height of the tree. Note that O(n) can be same as O(h), since the height of the tree can be
+same as n (in case of a really unbalanced, linked-list like looking tree).
 
 We do a pre-order traversal, maining a min and max value. Everytime we go the left subtree, we update the max.
-And everytime we go to the right subtree, we update the min.
+And everytime we go to the right subtree, we update the min. The main trick to this problem is realizing which
+traversal to use. To validate if a tree is BST, we need to perform the validation at each subtree comparing 
+the parent to its children. Again, at each subtree, we want to look at the parent then move onto its children.
+This is definition of pre-order traversal.
 
 */
