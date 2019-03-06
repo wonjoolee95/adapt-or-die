@@ -13,6 +13,7 @@ Input: coins = [2], amount = 3
 Output: -1
 
 Leetcode: https://leetcode.com/problems/coin-change/
+Difficulty: Medium
 
 */
 
