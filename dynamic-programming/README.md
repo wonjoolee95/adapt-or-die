@@ -1,4 +1,4 @@
-Dynamic programming remembers what we have computed before so we don't have to recompute again for the same subproblem. Dynamic programming is typically used in problems that require optimization, minization, maximation, etc.
+Dynamic programming remembers what we have computed before so we don't have to recompute again for the same subproblem. Dynamic programming is typically used in problems that require optimization, minimization, maximization, etc.
 
 In dynamic programming, we depend on two things: optimal substructure and overlappng subproblems. A problem is said to have optimal substructure if an optimal solution can be constructed from optimal solutions of its subproblems. Optimal substructure requires that you can solve a problem based on the solutions of subproblems. Overlapping subproblems means that when you split your problem into subproblems, you sometimes get the same subproblem multiple times. 
 
