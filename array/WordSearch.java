@@ -17,6 +17,9 @@ Given word = "ABCCED", return true.
 Given word = "SEE", return true.
 Given word = "ABCB", return false.
 
+Leetcode: https://leetcode.com/problems/word-search/
+Difficulty: Medium
+
 */
 
 class Solution {
