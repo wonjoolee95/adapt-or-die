@@ -48,4 +48,11 @@ class Solution {
 Time: O(n).
 Space: O(1).
 
+Here we, again, use the two pointer trick. But in this case, we use three pointers: 
+1. Incrementing i with for loop.
+2. Left pointer for where 0's should go.
+3. Right pointer for where 2's should go.
+
+We are only sorting 0's and 2's. After sorting these 1's will automatically be sorted. 
+
 */
