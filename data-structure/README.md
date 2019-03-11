@@ -1,0 +1,1 @@
+Data structure questions require some kind of designing beforehand. These kind of questions often have a lot of ambiguity, often on purpose. We should actively ask questions and clarify the requirements on the data structure and its methods.
