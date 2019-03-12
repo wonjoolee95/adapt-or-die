@@ -90,7 +90,7 @@ class TimeMap {
 
 Time: 
   set - O(1).
-  get - O(log n).
+  get - O(logn).
 Space: O(n).
 
 A brute-force approach would be be to have a hashmap of key to a list of timestamp objects. For set operation,
@@ -98,6 +98,6 @@ we just need to append to that end of the list, which is O(1) time. For get oper
 the entire list and find the correct timestamp, which is O(n) time.
 
 Since the timestamps is always sorted, we can do a binary search instead of doing a linear search to improve the 
-time complexity of get operation to O(log n). With a sorted array, binary search should always come into mind.
+time complexity of get operation to O(logn). With a sorted array, binary search should always come into mind.
 
 */
