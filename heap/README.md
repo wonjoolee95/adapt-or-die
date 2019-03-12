@@ -1,0 +1,3 @@
+Heap is a tree-based data structure that satisfies the heap property. In a min heap, the parent node is smaller than the child nodes. In a max heap, the parent node is bigger than the child nodes. Heaps are very common data structure in interviews. In my past interviews, I always encountered at least one question that involves or asks about a heap.
+
+Heap is used when you need to keep an array in sorted order. If you continuously need to fetch the lowest/biggest element, you should use a heap. Put/extract operation takes O(logn) time, which is an improvement to finding the min/max iteratively in an array (which would take O(n) time).
