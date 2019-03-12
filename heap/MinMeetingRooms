@@ -50,7 +50,7 @@ class Solution {
 
 /*
 
-Time: O(nlogn), since sorting the array takes O(logn) time and min-extraction from heap worst case O(nlogn) time.
+Time: O(nlogn), since sorting the array takes O(nlogn) time and min-extraction from heap worst case O(nlogn) time.
 Space: O(n), since heap can store up to n intervals (more specifically, end times).
 
 Let's think about when a room collision occurs -- when a meeting's start time occurs before another meetings endtime.
