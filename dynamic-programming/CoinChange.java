@@ -26,6 +26,8 @@ class Solution {
         // Set up for memoized top-down recursive approach.
         int[] dp = new int[amount + 1];
         return coinChange(coins, amount, dp);
+        
+        // Bottom-up iterative approach does not need additional set up.
     }
     
     // This is the brute foce approach. We recurse into every possibility
