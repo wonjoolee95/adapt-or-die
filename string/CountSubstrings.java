@@ -18,6 +18,7 @@ Output: 6
 Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 Leetcode: https://leetcode.com/problems/palindromic-substrings/
+Difficulty: Medium
 
 */
 
