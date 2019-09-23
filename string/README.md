@@ -3,5 +3,5 @@ Questions that involve strings are extremely common in interviews. One very comm
 An important part in using the sliding window algorithm is how we define the condition. We need a quick way to determine if the condition is being met or not. A common approach is to use a count to represent the condition. If the condition is the bigger string containing all the small string, we can have a map that stores frequency of the smaller string. Then every time when see a character with the right pointer, we can subtract the count variable if the right character is in the frequency map and has a value of >= 0 (think about why this is the case -- we don't want to keep subtracting the count variable if we repeatedly see the same character.
 
 Take a look at these questions and their explanation to see how we use our sliding window algorithm in real questions:
-- [https://github.com/wonjoolee95/interview-questions/blob/master/string/MinWindow.java](Minimum string window)
-- [https://github.com/wonjoolee95/interview-questions/blob/master/string/FindAnagrams.java](Find all anagrams)
+- [Minimum window string](https://github.com/wonjoolee95/interview-questions/blob/master/string/MinWindow.java)
+- [Find all anagrams](https://github.com/wonjoolee95/interview-questions/blob/master/string/FindAnagrams.java)
